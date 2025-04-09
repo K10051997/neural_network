@@ -9,9 +9,9 @@ st.title("🎓 Neural Network Admission Predictor")
 
 # Load trained model
 model_path = 'Nerual-Network-Predicting-Chances-of-Admission-at-UCLA-/models/admission_nn_model.pkl'
-if not os.path.exists(model_path):
-    st.error("❌ Model not found. Please train the model using `train.py`.")
-    st.stop()
+#if not os.path.exists(model_path):
+#    st.error("❌ Model not found. Please train the model using `train.py`.")
+#    st.stop()
 
 model = joblib.load(model_path)
 
